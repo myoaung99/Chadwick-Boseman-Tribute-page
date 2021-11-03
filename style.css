@@ -86,7 +86,9 @@ cite {
 }
 
 @media (max-width: 1025px){
-
+    #title{
+        font-size: 1.5em;
+    }
 
     #tribute-info {
         width: 70%;
