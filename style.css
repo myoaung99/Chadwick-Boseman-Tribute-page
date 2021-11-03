@@ -30,7 +30,7 @@ body {
 
 img {
     width: 70%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #img-caption{
@@ -86,11 +86,40 @@ cite {
 }
 
 @media (max-width: 1025px){
+    img {
+        width: 90%;
+    }
+
     #title{
-        font-size: 1.5em;
+        font-size: 2em;
+    }
+
+    #title + p {
+        letter-spacing: 2px;
+    }
+
+    #img-caption{
+        letter-spacing: 1px;
+    }
+
+    #info-title {
+        font-size: 1.2em;
     }
 
     #tribute-info {
-        width: 70%;
+        width: 80%;
     }
+
+    #footer-div{
+        margin: 50px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    #img-caption{
+        font-size: 0.8em;
+        letter-spacing: 1px;
+    }
+    
 }
