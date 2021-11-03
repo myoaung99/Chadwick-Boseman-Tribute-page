@@ -90,6 +90,10 @@ cite {
         width: 90%;
     }
 
+    #main{
+        padding: 20px;
+    }
+
     #title{
         font-size: 2em;
     }
